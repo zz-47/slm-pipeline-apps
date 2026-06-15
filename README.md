@@ -23,3 +23,15 @@ A repository dedicated to tracking the architecture, ingestion pipelines, and ex
    ```bash
    git clone [https://github.com/zz-47/slm-pipeline-apps.git](https://github.com/zz-47/slm-pipeline-apps.git)
    cd slm-pipeline-apps
+
+   
+2. **Environment Configuration**
+Create a local .env file in the root directory:
+
+Plaintext
+LOCAL_MODEL_ENDPOINT=http://localhost:XXXX
+MODEL_CONTEXT_LIMIT=4096
+
+3. **Initialize the Interfaces**
+Execute the core Python orchestration scripts or launch the frontend web assets to interface with the local pipeline.
+
